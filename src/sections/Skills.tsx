@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 
 const networkingSkills = [
-  { name: "IP Addressing & Subnetting", level: 90 },
+  { name: "IP Addressing & Subnetting", level: 85 },
   { name: "MikroTik RouterOS", level: 88 },
   { name: "Sistem Hotspot & Autentikasi", level: 85 },
   { name: "Routing Statis & Dinamis (OSPF)", level: 80 },
   { name: "Konfigurasi VLAN", level: 78 },
   { name: "Web Proxy & Filtering", level: 75 },
-  { name: "Troubleshooting Jaringan", level: 85 },
+  { name: "Troubleshooting Jaringan", level: 90 },
 ];
 
 const tools = [
@@ -15,7 +15,6 @@ const tools = [
   { name: "MikroTik RouterOS", icon: "📡" },
   { name: "Cisco Packet Tracer", icon: "🖧" },
   { name: "VirtualBox", icon: "💻" },
-  { name: "PNETlab", icon: "🧪" },
   { name: "GitHub Pages", icon: "⚡" },
   { name: "Cloudflare Workers", icon: "☁️" },
 ];

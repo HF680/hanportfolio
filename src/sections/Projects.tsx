@@ -84,7 +84,7 @@ const workflowSteps = [
     ),
     title: "Voucher Digenerate",
     desc: "Sistem otomatis membuat & mengirim kode voucher MikroTik",
-    tech: "Cloudflare Workers",
+    tech: "Integrasi mikbills",
   },
   {
     num: "05",
@@ -404,7 +404,7 @@ function Project2Card() {
         <div className="grid lg:grid-cols-[1.4fr_1fr] gap-8 mb-8">
           <div>
             <p className="text-[#9ca3af] leading-relaxed text-sm mb-5">
-              Merancang dan mengimplementasikan jaringan topologi bintang untuk lingkungan kampus sekolah.
+              Merancang dan mengimplementasikan jaringan topologi bintang untuk lingkungan sekolah.
               MikroTik berfungsi sebagai router inti yang mengelola DHCP, firewall, dan manajemen user hotspot.
               Sistem captive portal berbasis voucher diterapkan untuk autentikasi seluruh pengguna, dengan
               Wi-Fi roaming seamless antar access point di setiap ruangan.
@@ -417,7 +417,7 @@ function Project2Card() {
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
-              {["MikroTik RouterOS", "Winbox", "Switch Terkelola", "Access Point", "Hotspot Auth", "Captive Portal"].map((s) => (
+              {["MikroTik RouterOS", "Winbox", "Switch", "Access Point", "Hotspot Auth", "Captive Portal"].map((s) => (
                 <span key={s} className="tag">{s}</span>
               ))}
             </div>
